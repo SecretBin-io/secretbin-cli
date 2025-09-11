@@ -3,10 +3,11 @@ package helpers
 import (
 	"os"
 
-	secretbin "github.com/Nihility-io/SecretBin-Go/v2"
 	"github.com/jedib0t/go-pretty/v6/table"
 	"github.com/jedib0t/go-pretty/v6/text"
 	"github.com/spf13/viper"
+
+	secretbin "github.com/Nihility-io/SecretBin-Go/v2"
 )
 
 // PrintBanner prints the banner message of the SecretBin server if enabled in the configuration.

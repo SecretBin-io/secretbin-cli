@@ -5,9 +5,10 @@ import (
 	"fmt"
 	"os"
 
-	secretbin "github.com/Nihility-io/SecretBin-Go/v2"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
+
+	secretbin "github.com/Nihility-io/SecretBin-Go/v2"
 )
 
 // ctxKeySecretBin is the context key used to store the SecretBin client in the command context.
@@ -40,5 +41,6 @@ func GetSecretBinClient(cmd *cobra.Command) secretbin.Client {
 		fmt.Fprintln(os.Stderr, "Error: SecretBin client not found in command context")
 		os.Exit(1)
 	}
+
 	return sb
 }

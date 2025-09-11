@@ -24,6 +24,8 @@ builds:
     goarch:
       - amd64
       - arm64
+    flags:
+      - -trimpath
     ldflags:
       - -s -w -X main.NAME={{.ProjectName}} -X main.VERSION={{.Version}}
 

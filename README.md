@@ -9,11 +9,12 @@ Usage:
   secretbin [command]
 
 Available Commands:
-  completion   Generate the autocompletion script for the specified shell
-  create       Create a new secret using SecretBin
-  help         Help about any command
-  info         Print information about the SecretBin server
-  set-endpoint Set where SecretBin is hosted
+  completion        Generate the autocompletion script for the specified shell
+  create            Create a new secret using SecretBin
+  generate-password Generates a secure password
+  help              Help about any command
+  info              Print information about the SecretBin server
+  set-endpoint      Set where SecretBin is hosted
 
 Flags:
   -h, --help          help for secretbin-cli

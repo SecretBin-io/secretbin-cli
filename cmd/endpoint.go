@@ -1,12 +1,14 @@
 package cmd
 
 import (
-	"github.com/Nihility-io/SecretBin-CLI/helpers"
 	"github.com/spf13/cobra"
+
+	"github.com/Nihility-io/SecretBin-CLI/helpers"
 )
 
-var (
-	setEndpointCmd = &cobra.Command{
+// endpointCommand constructs the 'set-endpoint' command for the CLI application.
+func endpointCommand() *cobra.Command {
+	cmd := &cobra.Command{
 		Use:          "set-endpoint <endpoint>",
 		Short:        "Set where SecretBin is hosted",
 		SilenceUsage: true, // Don't print usage on error
@@ -16,4 +18,6 @@ var (
 			return helpers.SetEndpoint(args[0])
 		},
 	}
-)
+
+	return cmd
+}

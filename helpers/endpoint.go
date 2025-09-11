@@ -1,8 +1,9 @@
 package helpers
 
 import (
-	secretbin "github.com/Nihility-io/SecretBin-Go/v2"
 	"github.com/spf13/viper"
+
+	secretbin "github.com/Nihility-io/SecretBin-Go/v2"
 )
 
 // SetEndpoint sets the SecretBin endpoint in the configuration.
@@ -15,5 +16,6 @@ func SetEndpoint(endpoint string) error {
 	viper.Set("endpoint", endpoint)
 	viper.SafeWriteConfig()
 	viper.WriteConfig()
+
 	return nil
 }

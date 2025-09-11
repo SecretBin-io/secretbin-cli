@@ -4,14 +4,16 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Nihility-io/SecretBin-CLI/helpers"
 	"github.com/jedib0t/go-pretty/v6/table"
 	"github.com/jedib0t/go-pretty/v6/text"
 	"github.com/spf13/cobra"
+
+	"github.com/Nihility-io/SecretBin-CLI/helpers"
 )
 
-var (
-	infoCmd = &cobra.Command{
+// infoCommand constructs the 'info' command for the CLI application.
+func infoCommand() *cobra.Command {
+	cmd := &cobra.Command{
 		Use:          "info",
 		Short:        "Print information about the SecretBin server",
 		SilenceUsage: true, // Don't print usage on error
@@ -47,7 +49,10 @@ var (
 			}
 
 			t.Render()
+
 			return nil
 		},
 	}
-)
+
+	return cmd
+}

@@ -5,9 +5,10 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/spf13/viper"
+
 	"github.com/Nihility-io/SecretBin-CLI/cmd"
 	"github.com/Nihility-io/SecretBin-CLI/helpers"
-	"github.com/spf13/viper"
 )
 
 var (
@@ -39,6 +40,7 @@ func init() {
 
 			if err := helpers.SetEndpoint(endpoint); err != nil {
 				fmt.Fprintf(os.Stderr, "Invalid endpoint: %s\n", err)
+
 				continue
 			}
 
