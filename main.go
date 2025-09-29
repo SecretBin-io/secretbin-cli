@@ -7,8 +7,8 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/Nihility-io/SecretBin-CLI/cmd"
-	"github.com/Nihility-io/SecretBin-CLI/helpers"
+	"github.com/SecretBin-io/secretbin-cli/cmd"
+	"github.com/SecretBin-io/secretbin-cli/helpers"
 )
 
 var (
@@ -20,7 +20,7 @@ func init() {
 	// Get the user's configuration directory and create a subdirectory for the CLI.
 	configDir, _ := os.UserConfigDir()
 	configDir = filepath.Join(configDir, NAME)
-	os.MkdirAll(configDir, 0755)
+	os.MkdirAll(configDir, 0o755)
 
 	// Set the configuration file name and type for viper.
 	viper.SetConfigType("toml")

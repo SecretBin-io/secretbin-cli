@@ -7,7 +7,7 @@ import (
 	"github.com/jedib0t/go-pretty/v6/text"
 	"github.com/spf13/viper"
 
-	secretbin "github.com/Nihility-io/SecretBin-Go/v2"
+	"github.com/SecretBin-io/go-secretbin/v2"
 )
 
 // PrintBanner prints the banner message of the SecretBin server if enabled in the configuration.
@@ -37,5 +37,4 @@ func PrintBanner(sb secretbin.Client) {
 		// Print the banner
 		t.Render()
 	}
-
 }

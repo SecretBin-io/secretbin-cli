@@ -1,9 +1,9 @@
-module github.com/Nihility-io/SecretBin-CLI
+module github.com/SecretBin-io/secretbin-cli
 
-go 1.25
+go 1.25.1
 
 require (
-	github.com/Nihility-io/SecretBin-Go/v2 v2.1.0
+	github.com/SecretBin-io/go-secretbin/v2 v2.1.1
 	github.com/jedib0t/go-pretty/v6 v6.6.8
 	github.com/spf13/cobra v1.10.1
 	github.com/spf13/viper v1.21.0
@@ -27,7 +27,7 @@ require (
 	github.com/subosito/gotenv v1.6.0 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
-	golang.org/x/crypto v0.40.0 // indirect
-	golang.org/x/sys v0.34.0 // indirect
-	golang.org/x/text v0.28.0 // indirect
+	golang.org/x/crypto v0.42.0 // indirect
+	golang.org/x/sys v0.36.0 // indirect
+	golang.org/x/text v0.29.0 // indirect
 )

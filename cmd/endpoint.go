@@ -3,7 +3,7 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/Nihility-io/SecretBin-CLI/helpers"
+	"github.com/SecretBin-io/secretbin-cli/helpers"
 )
 
 // endpointCommand constructs the 'set-endpoint' command for the CLI application.

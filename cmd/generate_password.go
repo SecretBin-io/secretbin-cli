@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	secretbin "github.com/Nihility-io/SecretBin-Go/v2"
+	"github.com/SecretBin-io/go-secretbin/v2"
 )
 
 // generatePasswordCommand constructs the 'generate-password' command for the CLI application.
@@ -31,7 +31,6 @@ func generatePasswordCommand() *cobra.Command {
 				Digits:    !flagNoDigits,
 				Symbols:   !flagNoSymbols,
 			})
-
 			if err != nil {
 				return err
 			}

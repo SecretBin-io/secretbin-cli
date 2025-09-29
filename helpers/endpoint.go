@@ -3,7 +3,7 @@ package helpers
 import (
 	"github.com/spf13/viper"
 
-	secretbin "github.com/Nihility-io/SecretBin-Go/v2"
+	"github.com/SecretBin-io/go-secretbin/v2"
 )
 
 // SetEndpoint sets the SecretBin endpoint in the configuration.
