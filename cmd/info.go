@@ -8,7 +8,7 @@ import (
 	"github.com/jedib0t/go-pretty/v6/text"
 	"github.com/spf13/cobra"
 
-	"github.com/SecretBin-io/secretbin-cli/helpers"
+	"github.com/secretbin-io/secretbin-cli/helpers"
 )
 
 // infoCommand constructs the 'info' command for the CLI application.

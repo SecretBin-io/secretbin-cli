@@ -7,8 +7,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/SecretBin-io/go-secretbin/v2"
-	"github.com/SecretBin-io/secretbin-cli/helpers"
+	"github.com/secretbin-io/go-secretbin/v2"
+	"github.com/secretbin-io/secretbin-cli/helpers"
 )
 
 // createCommand constructs the 'create' command for the CLI application.

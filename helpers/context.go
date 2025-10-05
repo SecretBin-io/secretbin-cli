@@ -8,7 +8,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/SecretBin-io/go-secretbin/v2"
+	"github.com/secretbin-io/go-secretbin/v2"
 )
 
 // ctxKeySecretBin is the context key used to store the SecretBin client in the command context.

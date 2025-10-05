@@ -1,10 +1,10 @@
-module github.com/SecretBin-io/secretbin-cli
+module github.com/secretbin-io/secretbin-cli
 
 go 1.25.1
 
 require (
-	github.com/SecretBin-io/go-secretbin/v2 v2.1.1
 	github.com/jedib0t/go-pretty/v6 v6.6.8
+	github.com/secretbin-io/go-secretbin/v2 v2.1.2
 	github.com/spf13/cobra v1.10.1
 	github.com/spf13/viper v1.21.0
 )

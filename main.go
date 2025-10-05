@@ -7,8 +7,8 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/SecretBin-io/secretbin-cli/cmd"
-	"github.com/SecretBin-io/secretbin-cli/helpers"
+	"github.com/secretbin-io/secretbin-cli/cmd"
+	"github.com/secretbin-io/secretbin-cli/helpers"
 )
 
 var (

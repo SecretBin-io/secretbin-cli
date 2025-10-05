@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/SecretBin-io/go-secretbin/v2"
+	"github.com/secretbin-io/go-secretbin/v2"
 )
 
 // generatePasswordCommand constructs the 'generate-password' command for the CLI application.

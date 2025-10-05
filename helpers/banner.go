@@ -7,7 +7,7 @@ import (
 	"github.com/jedib0t/go-pretty/v6/text"
 	"github.com/spf13/viper"
 
-	"github.com/SecretBin-io/go-secretbin/v2"
+	"github.com/secretbin-io/go-secretbin/v2"
 )
 
 // PrintBanner prints the banner message of the SecretBin server if enabled in the configuration.
